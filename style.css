@@ -1,6 +1,8 @@
 body{
 	font-family: 'Open Sans',sans-serif;
 	background-color: black;
+		display: flex;
+
 }
 .container{
 	width: 820px;
