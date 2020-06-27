@@ -1,0 +1,84 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: black;
+}
+.container{
+	width: 820px;
+	height: 620px;
+	
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(image/Capture.PNG) ;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 20px auto;	
+}
+#text{
+    height: 50px;
+	width: 315px;
+	text-align: right;
+	border-radius: 5%;
+	font-size: 25px;
+background-color:  rgb(128,128,128);
+
+}
+ .form{
+	width: 330px;
+	height: 380px;
+	background-color:transparent;
+	margin: 0 auto;
+	top: 120px;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#button{
+	width: 76px;
+	height: 59px;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 25px;
+	cursor: pointer;
+	background: linear-gradient(to top, red -88%, rgb(128,128,128) 50%);
+
+	
+}
+#color{
+	width: 76px;
+	height: 59px;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 25px;
+	cursor: pointer;
+	background-color: 	 rgb(128,128,128);
+}
+
+#plus{
+	width: 72px;
+	height: 180px;
+	border-radius: 10%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 25px;
+	cursor: pointer;
+	background-color: 	 rgb(128,128,128);
+}
+ 
+/* {
+	width: 150px;
+	height: 60px;
+	border-radius: 10%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 25px;
+	cursor: pointer;
+	background-color: 	 rgb(128,128,128);
+} */
+
+#button:focus, #color:focus, #plus:focus{
+	outline: 0;
+	background-color: rgb(64,64,64)	;
+      
+}

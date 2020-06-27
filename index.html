@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" name="form" class="form">
+            <table class="table">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="input" id="text" >
+                    </td>
+                   
+
+                </tr>
+<tr>
+    <td>
+        <input type="button" id="color" value=" C " onclick="form.input.value = '' ">
+    </td>
+    <td>
+        <input type="button" id="color" value=" % " onclick="form.input.value += '%' ">
+    </td>
+        <td><input type="button" id="color" value=" / " onclick="form.input.value += '/' ">
+        </td>
+     
+        <td><input type="button" id="color" value=" * " onclick="form.input.value += '*' ">
+        </td>
+       
+</tr>
+
+                <tr>
+                    <td>
+                        <input type="button" id="button" value=" 9 " onclick="form.input.value += '9' ">
+                    </td>
+                    <td>
+                        <input type="button" id="button" value=" 8 " onclick="form.input.value += '8' ">
+                    </td>
+                    <td>
+                        <input type="button" id="button" value=" 7 " onclick="form.input.value += '7' ">
+                    </td>
+                    <td><input type="button" id="color" value=" - " onclick="form.input.value += '-' ">
+                    </td>
+                    
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <input type="button" id="button" value=" 6 " onclick="form.input.value += '6' ">
+                        </td>
+                        <td>
+                            <input type="button" id="button" value=" 5 " onclick="form.input.value += '5' ">
+                        </td>
+                        <td>
+                            <input type="button" id="button" value=" 4 " onclick="form.input.value += '4' ">
+                        </td>
+                        <td rowspan="3"><input type="button" id="plus" value=" + " onclick="form.input.value += '+' ">
+                        </td>
+                       
+                        </tr>
+
+                        
+                        <tr>
+                            <td>
+                                <input type="button" id="button" value=" 3 " onclick="form.input.value += '3' ">
+                            </td>
+                            <td>
+                                <input type="button" id="button" value=" 2 " onclick="form.input.value += '2' ">
+                            </td>
+                            <td>
+                                <input type="button" id="button" value=" 1 " onclick="form.input.value += '1' ">
+                            </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <input type="button" id="color" value=" . " onclick="form.input.value += '.' ">
+                                </td>
+                                <td>
+                                    <input type="button" id="color" value=" 0 " onclick="form.input.value += '0' ">
+                                </td>
+                                <td>
+                                    <input type="button" id="color" value=" = " onclick="form.input.value = eval(form.input.value) ">
+                                </td>
+                                </tr>
+            
+        
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
